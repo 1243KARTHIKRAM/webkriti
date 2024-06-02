@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color:  #0056b3;
+    background-color:#0056b3;;
     color: white;
     padding: 1em 0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -19,14 +19,14 @@ h1 {
     margin: 0;
 }
 
-.programs-container {
+.fee-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em;
 }
 
-.program {
+.fee-item {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -39,11 +39,24 @@ h1 {
     transition: all 0.5s ease-out;
 }
 
-.program h2 {
+.fee-item h2 {
     margin-top: 0;
     color: #333;
 }
 
-.program p {
-    color: #666;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:#0056b3;
+    color: white;
 }
